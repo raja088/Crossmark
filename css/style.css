@@ -1,0 +1,864 @@
+/* globle css start */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+a {
+  display: inline-block;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+body,
+a {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+h2 {
+  color: #064d77;
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  font-family: "Teko";
+  text-align: center;
+}
+/* p {
+  color: #889495;
+  font-size: 20px;
+  line-height: 26px;
+  font-style: italic;
+  font-weight: 300;
+  max-width: 819px;
+    margin: 0 auto;
+} */
+/* globle css end */
+/* Header Section Start Here  */
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+header {
+  width: 100%;
+  padding: 30px 0px 54px 0px;
+  background-color: #ffffff;
+}
+.heeader-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo a {
+  max-width: 180px;
+}
+.header-logo img {
+  width: 100%;
+}
+header .menu {
+  display: none;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav li a {
+  padding: 17px 35px;
+  color: #333333;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+.dolls {
+  background-image: url(../images/Green\ Button.png);
+  /* border-radius: 10px; */
+  color: #ffffff;
+  max-width: 163px;
+  font-size: 15px;
+  background-size: cover;
+}
+.phone-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.number {
+  color: #006699;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.number span {
+  font-size: 17px;
+  font-weight: 700;
+}
+.icon {
+  text-align: center;
+  font-size: 30px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #339933;
+  color: #ffffff;
+}
+.icon i {
+  font-size: 30px;
+  color: #ffffff;
+}
+.individual-investor {
+  padding: 15px 0px;
+  background-color: #f3f3f3;
+  text-align: center;
+}
+.individual-investor span {
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
+  color: #457998;
+}
+.individual-investor a {
+  font-size: 30px;
+  font-weight: 400;
+  color: #064d77;
+}
+/* Banner section Start here */
+.banner-wrapper {
+  padding: 449px 0px 0;
+  background-image: url(../images/Path\ Image.png);
+  background-size: cover;
+}
+.banner-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top-left-radius: 50px;
+  overflow: hidden;
+  background-color: #3f9335;
+  padding: 27px 40px;
+}
+.banner-details p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.demo-btn {
+  padding: 19px 34px;
+  border-radius: 6px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #10517b;
+}
+/* Banner section End here */
+/* Crossmark Section Start Here */
+.crossmark-wrapper {
+  padding: 85px 0px 80px 0px;
+  background-color: #ffffff;
+  text-align: center;
+}
+/* .crossmark-details {
+  text-align: center;
+} */
+.crossmark-details h2 {
+  margin-bottom: 38px;
+}
+.crossmark-details p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #444444;
+  line-height: 46px;
+  max-width: 1169px;
+  margin: 0 auto 50px;
+}
+.cross-btn {
+  padding: 23px 60px;
+  font-size: 21;
+  font-size: 21px;
+  font-weight: 600;
+  color: #064d77;
+  background-color: #ffffff;
+  border: 2px solid #064d77;
+}
+/* Crossmark Section End Here */
+/* .crossmark-philanthropy start here */
+
+.philanthropy-details {
+  display: flex;
+  justify-content: space-between;
+  /* width: 50%; */
+  align-items: center;
+  background-color: #f3f3f3;
+}
+.philanthropy-img img {
+  width: 100%;
+  height: 100%;
+}
+.crossmark-philanthropy-details {
+  width: 50%;
+  padding: 37px 0px 45px 0px;
+  background-color: #f3f3f3;
+}
+/* .philanthropy-details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+.philanthropy-details-inner {
+  max-width: 60%;
+  margin-right: auto;
+  text-align: right;
+}
+.heart-img {
+  max-width: 110px;
+  width: 100%;
+}
+.heart-img img {
+  width: 100%;
+  object-fit: contain;
+}
+.crossmark-philanthropy-details .heading-title {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+.crossmark-philanthropy-details h3 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #064d77;
+  margin-bottom: 37px;
+  font-family: "Teko";
+  text-align: right;
+}
+.philanthropy-img {
+  width: 50%;
+  max-height: 600px;
+  overflow: hidden;
+}
+.crossmark-philanthropy-details p {
+  font-size: 22px;
+  line-height: 44px;
+  max-width: 441px;
+  margin: 0 auto 67px;
+  font-weight: 500;
+  color: #000000;
+  margin-right: 0px;
+}
+
+.more-btn {
+  padding: 22px 97px;
+  font-size: 21px;
+  font-weight: 600;
+  color: #03618c;
+  background-color: #03618c;
+  color: #ffffff;
+  font-family: "Montserrat";
+}
+/* .crossmark-philanthropy start here */
+/* Careers Section Start Here */
+.careers {
+  padding: 120px 0px 75px 0px;
+  background-color: #ffffff;
+  text-align: center;
+}
+.career-img img {
+  margin-bottom: 51px;
+}
+.career-text p {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 400;
+  color: #064d77;
+  margin-bottom: 30px;
+}
+.career-text span {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 600;
+  color: #064d77;
+  margin-bottom: 75px;
+  display: block;
+}
+.careers-btn {
+  padding: 23px 122px;
+  font-size: 21px;
+  font-weight: 600;
+  color: #064d77;
+  background-color: #ffffff;
+  border: 2px solid #064d77;
+  font-family: "Montserrat";
+}
+/* Careers Section End Here */
+/* Further Section Start Here */
+.further-wrapper {
+  padding: 88px 0px 77px 0px;
+  background-color: #459f42;
+  background-image: url(../images/Mountains.png);
+  background-image: cover;
+  text-align: center;
+  border-top-left-radius: 79px;
+}
+.further-details h3 {
+  font-size: 42px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+.further-details p {
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 72px;
+}
+.contact-btn {
+  padding: 23px 122px;
+  font-size: 21px;
+  font-weight: 600;
+  color: #03618c;
+  background-color: #ffffff;
+  border: 2px solid #03618c;
+  font-family: "Montserrat";
+}
+/* Further Section End Here */
+/* Footer Section Start Here  */
+footer {
+  padding: 47px 0px 23px 0px;
+  background-color: #11171a;
+}
+.footer-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer-logo {
+  width: 25%;
+}
+.footer-logo img {
+  width: 100%;
+  margin-bottom: 45px;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.footer-details p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  max-width: 468px;
+  margin: 0 auto 35px;
+}
+.links {
+  width: 50%;
+}
+.links h3 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #ffffff;
+  border-bottom: 2px solid #343434;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+/* .navigate {
+  width: 100%;
+} */
+.navigate li a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  width: 30%;
+  margin-bottom: 14px;
+}
+.footer-link li a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  width: 100%;
+  margin-bottom: 14px;
+}
+.footerlinks li a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  width: 100%;
+  margin-bottom: 14px;
+}
+.subscribe h3 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #dddfe7;
+  margin-bottom: 25px;
+}
+.subscribe input {
+  width: 100%;
+  padding: 11px 25px 15px 25px;
+  margin-bottom: 25px;
+  border: 1px solid #dddfe7;
+}
+.wifi-link {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+}
+.wifi-btn {
+  padding: 14px 14px;
+  background-color: #22628f;
+  color: #ffffff;
+  border: 0;
+}
+.wifi-btn i {
+  transform: rotate(45deg);
+}
+
+.subscribe p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.footer-bottom {
+  border-top: 2px solid #343434;
+}
+.footer-bottom .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.footer-bottom p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  font-style: normal;
+  padding-top: 35px;
+  /* padding-bottom: 49px; */
+}
+.footer-bottom i {
+  font-size: 20px;
+  color: #002854;
+}
+.social-icons {
+  display: flex;
+  gap: 21px;
+}
+.social-icons a {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Footer Section End Here  */
+/* Responsiveness Css Start */
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 0px 25px;
+  }
+  nav li a {
+    padding: 9px 15px;
+  }
+  .more-btn {
+    padding: 22px 46px;
+    font-size: 16px;
+  }
+  .crossmark-philanthropy-details h3 {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 19px;
+  }
+  .philanthropy-details-inner {
+    max-width: 90%;
+  }
+  .crossmark-philanthropy-details p {
+    font-size: 16px;
+    line-height: 27px;
+    margin: 0 auto 20px;
+    font-weight: 500;
+  }
+  .links {
+    width: 45%;
+  }
+  .footer-logo {
+    width: 18%;
+  }
+}
+@media screen and (max-width: 991px) {
+  nav li a {
+    padding: 9px 8px;
+    font-size: 17px;
+    color: #131a1d;
+  }
+  .dolls {
+    font-size: 13px;
+    background-position: bottom;
+    border-radius: 15px 0 0 0;
+    max-width: 163px;
+  }
+  .individual-investor a {
+    font-size: 22px;
+  }
+  .number span {
+    font-size: 14px;
+  }
+  .number {
+    font-size: 14px;
+  }
+  #mobile-menu {
+    order: 2;
+    width: 100%;
+  }
+  .heeader-inner {
+    flex-wrap: wrap;
+  }
+  header {
+    padding: 12px 0px 7px 0px;
+  }
+  #mobile-menu ul li:last-child {
+    margin-left: auto;
+  }
+  h2 {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .social-icons {
+    justify-content: center;
+    width: 100%;
+  }
+  #mobile-menu ul li:last-child {
+    margin-left: 0;
+  }
+  nav li a {
+    padding: 9px 8px;
+    font-size: 17px;
+    color: #ffffff;
+  }
+  #mobile-menu {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    height: 100vh;
+    z-index: 1;
+  }
+  header {
+    position: relative;
+    /* z-index: 2; */
+  }
+  #mobile-menu ul li {
+    margin-bottom: 15px;
+  }
+  nav {
+    width: 100%;
+    /* max-width: 106%; */
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background: #10517b;
+    transition: all 0.5s ease-in-out;
+    transform: translateY(-100%);
+    z-index: -7;
+  }
+  nav.active {
+    transform: translateY(0%);
+  }
+  header .menu {
+    display: block;
+    z-index: 9;
+  }
+  nav ul {
+    flex-direction: column;
+    padding: 40px 0px;
+  }
+  .banner-details p {
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .banner-details {
+    padding: 28px 19px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 0;
+    width: 100%;
+    width: calc(100% + 55px);
+    margin: 0 -30px;
+  }
+  .philanthropy-details {
+    display: flex;
+    justify-content: space-between;
+    /* width: 50%; */
+    align-items: center;
+    background-color: #f3f3f3;
+    align-content: center;
+    flex-direction: column;
+  }
+  .crossmark-philanthropy-details .heading-title {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .demo-btn {
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .crossmark-details h2 {
+    margin-bottom: 15px;
+  }
+  .crossmark-details p {
+    font-size: 15px;
+    line-height: 22px;
+    margin: 0 auto 40px;
+  }
+  .cross-btn {
+    font-size: 16px;
+    padding: 23px 38px;
+  }
+  .careers-btn {
+    padding: 23px 38px;
+    font-size: 16px;
+  }
+  .contact-btn {
+    padding: 23px 38px;
+    font-size: 16px;
+  }
+  .career-text span {
+    font-size: 17px;
+    margin-bottom: 43px;
+  }
+  .career-text p {
+    font-size: 17px;
+
+    margin-bottom: 20px;
+  }
+  .career-img img {
+    margin-bottom: 29px;
+    width: 50%;
+  }
+  .careers {
+    padding: 49px 0px 42px 0px;
+  }
+  .further-details h3 {
+    font-size: 25px;
+    margin-bottom: 23px;
+  }
+  .further-details p {
+    font-size: 21px;
+    font-weight: 300;
+
+    margin-bottom: 25px;
+  }
+  .further-wrapper {
+    padding: 55px 0px 44px 0px;
+  }
+  .footer-details {
+    flex-wrap: wrap;
+  }
+  .footer-bottom p {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  .footer-logo {
+    width: 80%;
+  }
+  .links {
+    width: 100%;
+  }
+  .footer-bottom .container {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .crossmark-philanthropy-details h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .crossmark-philanthropy-details p {
+    font-size: 15px;
+    line-height: 21px;
+    margin: 0 auto 15px;
+  }
+  .more-btn {
+    padding: 18px 27px;
+    font-size: 16px;
+  }
+  .individual-investor a {
+    font-size: 20px;
+  }
+  .crossmark-wrapper {
+    padding: 33px 0px 34px 0px;
+  }
+  .crossmark-philanthropy-details {
+    width: 100%;
+  }
+  .philanthropy-img {
+    width: 100%;
+  }
+  .philanthropy-details-inner {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .crossmark-philanthropy-details {
+    width: 100%;
+  }
+  .philanthropy-img {
+    width: 100%;
+  }
+  .philanthropy-details-inner {
+    max-width: 100%;
+    text-align: center;
+  }
+  .phone-links {
+    display: none;
+  }
+  .icon {
+    display: none;
+  }
+  .number {
+    display: none;
+  }
+  .individual-investor a {
+    font-size: 15px;
+  }
+  .cross-btn {
+    font-size: 15px;
+    padding: 14px 20px;
+  }
+  .careers-btn {
+    font-size: 15px;
+    padding: 14px 20px;
+  }
+  .contact-btn {
+    font-size: 15px;
+    padding: 14px 20px;
+  }
+  .more-btn {
+    padding: 18px 12px;
+    font-size: 16px;
+  }
+  .further-wrapper {
+    border-top-left-radius: 0px;
+  }
+  .further-details p {
+    font-size: 17px;
+  }
+  .further-details h3 {
+    font-size: 20px;
+  }
+  .footer-links {
+    flex-wrap: wrap;
+  }
+}
+/* @media screen and (max-width: 991px) {
+  
+  .number {
+    font-size: 14px;
+  }
+  nav li a {
+    padding: 9px 9px;
+  }
+  .demo-btn {
+    font-size: 15px;
+  }
+  .banner-details p {
+    font-size: 17px;
+  }
+  h2 {
+    font-size: 60px;
+  }
+  .crossmark-details p {
+    font-size: 22px;
+  }
+  .cross-btn {
+    padding: 34px 43px;
+    font-size: 23px;
+  }
+  .careers-btn {
+    padding: 35px 76px;
+    font-size: 23px;
+  }
+  .further-details h3 {
+    font-size: 50px;
+  }
+  .further-details p {
+    font-size: 34px;
+  }
+  .contact-btn {
+    padding: 35px 75px;
+    font-size: 22px;
+  }
+  }
+@media screen and (max-width: 768px) {
+  header {
+    position: relative;
+    z-index: 1;
+  }
+  nav {
+    width: 100%;
+    max-width: 106%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background: #fff;
+    transition: all 0.5s ease-in-out;
+    transform: translateY(-100%);
+    z-index: -7;
+  }
+  nav.active {
+    transform: translateY(0%);
+  }
+} */
